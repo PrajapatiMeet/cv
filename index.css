@@ -1,0 +1,56 @@
+/* Tag CSS */
+body {
+    background: rgb(222, 219, 219);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 0.9rem;
+}
+
+h3 {
+    font-size: 18px;
+    color: #2e64fe;
+    text-transform: uppercase;
+}
+
+
+/* Class CSS */
+
+.resume {
+    width: 55vw;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 20px;
+    background: white;
+    margin: auto;
+    font-family: Arial;
+    height: 1000px;
+}
+
+.profile {
+    height: max-content;
+    overflow: hidden;
+    background-color: rgb(237, 235, 241);
+
+}
+
+.profile > table {
+    border-spacing: 10px;
+    margin: auto;
+}
+
+.info {
+    display: flex;
+    word-wrap: break-word;
+}
+
+.left-info {
+    /* background: green; */
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.right-info {
+    /* background: blue; */
+    flex-grow: 1;
+    flex-basis: 0;
+}
